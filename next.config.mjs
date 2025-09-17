@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: '/app/stock',
-  experimental: {
-    instrumentationHook: true,
-  },
+  // experimental: {
+  //   instrumentationHook: true,
+  // },
 };
 
 export default nextConfig;
